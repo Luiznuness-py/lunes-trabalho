@@ -61,7 +61,7 @@ cargo test --manifest-path src-tauri/Cargo.toml --locked
 npm run tauri -- dev
 ```
 
-Consulte [a arquitetura](docs/ARCHITECTURE.md) e [a validação e pendências](docs/VALIDATION.md). Novas mudanças de banco exigem migração versionada; a versão inicial deste produto usa esquema próprio, versão 1.
+Consulte [a arquitetura](docs/ARCHITECTURE.md), [a validação e pendências](docs/VALIDATION.md) e o [guia para implementar a ilha no Windows](docs/ISLAND_WINDOWS.md). O guia descreve o comportamento e as etapas; a ilha ainda não está implementada. Novas mudanças de banco exigem migração versionada; a versão inicial deste produto usa esquema próprio, versão 1.
 
 ## Licença
 
