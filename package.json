@@ -1,0 +1,32 @@
+{
+  "name": "lunes-trabalho",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "check": "tsc --noEmit",
+    "build": "npm run check && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "test": "node tests/contrast.test.mjs && node tests/window.test.mjs && node tests/theme.test.mjs && node tests/calendar.test.mjs && node tests/goals.test.mjs"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "2.12.3",
+    "lucide-react": "1.56.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.12.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "typescript": "5.9.3",
+    "vite": "8.3.4"
+  },
+  "license": "SEE LICENSE IN LICENSE.md"
+}
